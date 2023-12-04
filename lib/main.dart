@@ -1,12 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'auth/main_page.dart';
-import '../firebase_options.dart';
-
 import 'package:coffee_app/config/app_router.dart';
-import 'package:coffee_app/pages/coffee_detail_page.dart';
-import 'package:coffee_app/pages/login_page.dart';
 import 'package:coffee_app/pages/home_page.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:coffee_app/firebase_options.dart';
 
 
 void main() async {
@@ -32,13 +29,8 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.orange,
       ),
 
-
       onGenerateRoute: AppRouter.onGenerateRoute,
       initialRoute: HomePage.routeName,
-      // routes: {
-      //   '/': (context) => HomePage(),
-      //   '/coffee_detail': (context) => CoffeeDetailPage(),
-      // },
 
     );
   }
