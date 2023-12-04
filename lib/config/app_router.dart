@@ -16,10 +16,8 @@ class AppRouter {
       case '/coffee_detail':
             // the details page for one specific coffee
         return CoffeeDetailScreen.route(arguments);
-
       default:
         return _errorRoute();
-
     }
   }
 
