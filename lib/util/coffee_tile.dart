@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:coffee_app/models/models.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class CoffeeTile extends StatelessWidget {
