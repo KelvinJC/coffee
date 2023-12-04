@@ -49,17 +49,17 @@ class _HomePageState extends State<HomePage> {
 
   final List coffeeTile = [
     [
-      'lib/images/latte.jpg',
+      'assets/images/latte.jpg',
       'Latte',
       '4.50'
     ],
     [
-      'lib/images/cappucino.jpg',
+      'assets/images/cappucino.jpg',
       'Cappuccino',
       '5.20'
     ],
     [
-      'lib/images/milk.jpg',
+      'assets/images/milk.jpg',
       'Black',
       '4.00'
     ],
@@ -69,21 +69,21 @@ class _HomePageState extends State<HomePage> {
     Coffee(
         name: 'Latte',
         additive: 'With Almond Milk',
-        image: 'lib/images/latte.jpg',
+        image: 'assets/images/latte.jpg',
         description: 'A froth filled coffee drink with milk and sugar added ...',
         price: '4.50'
     ),
     Coffee(
         name: 'Cappuccino',
         additive: 'With Oat Milk',
-        image: 'lib/images/cappucino.jpg',
+        image: 'assets/images/cappucino.jpg',
         description: 'A cappuccino is a coffee-based drink made primarily from espresso and milk ...',
         price: '5.20'
     ),
     Coffee(
         name: 'Black',
         additive: 'No sugar or cream',
-        image: 'lib/images/milk.jpg',
+        image: 'assets/images/milk.jpg',
         description: 'A black is a coffee drink without any milk or sugar added ...',
         price: '4.00'
     ),
